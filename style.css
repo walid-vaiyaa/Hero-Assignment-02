@@ -52,20 +52,47 @@
 
 /* banner style */
 
+
 /* Featured vedio section */
-.vedio-section{
+
+.episodes-section {
+    text-align: center;
     background-color: #1A0B2E;
     padding: 120px 200px;
 }
-.vedio{
+
+.vedio-card-container{
     display: flex;
+    gap: 24px;
     justify-content: center;
-    align-items: center;
-    gap: 2rem;
 }
-.vedio-card{
-    border-radius: 10px;
+
+.episode-card {
+    background-color: #250D44;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 380px;
+    text-align: left;
 }
+
+.card-content{
+    padding: 24px;
+    color: #FFFFFF;
+}
+.card-content h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.card-content p{
+    font-size: 16px;
+    margin: 12px 0 ;
+}
+
+.vedio-card:hover {
+    transform: translateY(-5px);
+}
+
+
 
 /* host sytle */
 .host-container{
