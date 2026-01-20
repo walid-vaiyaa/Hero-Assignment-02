@@ -52,9 +52,9 @@
 
 /* banner style */
 
-
 /* Featured vedio section */
 
+    
 .episodes-section {
     text-align: center;
     background-color: #1A0B2E;
@@ -65,17 +65,16 @@
     display: flex;
     gap: 24px;
     justify-content: center;
+    
 }
 
-.episode-card {
+.episodes-grid{
     background-color: #250D44;
-    border-radius: 20px;
-    overflow: hidden;
-    width: 380px;
-    text-align: left;
+    border-radius: 24px;
 }
 
 .card-content{
+    text-align: left;
     padding: 24px;
     color: #FFFFFF;
 }
@@ -85,10 +84,10 @@
 }
 .card-content p{
     font-size: 16px;
-    margin: 12px 0 ;
+    margin: 12px 0;
 }
 
-.vedio-card:hover {
+.episode-card:hover {
     transform: translateY(-5px);
 }
 
