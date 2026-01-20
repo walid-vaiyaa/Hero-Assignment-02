@@ -12,9 +12,12 @@
 }
 
 /* Navigation style */
-.navbar img{
-    cursor: pointer;
+
+#header-logo:hover{
+    transform: scale(1.2);
+    background: transparent;
 }
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -48,13 +51,18 @@
     cursor: pointer;
 }
 
-/* main style */
+
 
 /* banner style */
+
+
 .hero-container {
-    /* text-align: center; */
     background-color: #1A0B2E;
+    background-image: url(./assets/hero-bg.png);
+    background-position:center ;
+    /* background-size: cover; */
 }
+
 
 .hero-title {
     padding-top: 70px;
@@ -67,7 +75,7 @@
     align-items: center;
 }
 
-/* Gradient Circle */
+/* round shape */
 .logo-circle {
     position: relative;
     width: 280px;
@@ -111,16 +119,14 @@
     margin-bottom: .7rem;
 }
 
-.tagline {
+.banner-para {
     font-size: 0.95rem;
     color: #ffffffb9;
     margin-bottom: 1.25rem;
 }
-
-.button-group {
+.button-item {
     display: flex;
     gap: 1rem;
-    /* padding-bottom: 3.5rem; */
     margin-bottom: 3.5rem;
 }
 
@@ -135,7 +141,7 @@
     font-size: 1rem;
 }
 .btn-spotify {
-    background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
+    background: linear-gradient(70deg, #F7E93F 0%, #FB09B4 51%, #9100F8 100%);
     color: white;
 }
 
