@@ -308,7 +308,6 @@
     background-color: #1A0B2E;
     padding: 120px 200px;
 }
-
 .vedio-card-container{
     display: flex;
     gap: 24px;
@@ -421,14 +420,4 @@
 
 
 
-/* Responsive adjustments */
-
-@media screen and (max-width: 576px) {
-   
-    
-}
-
-@media screen and (min-width: 992px) {
-
-    
-}
+/* Responsive */
