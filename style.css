@@ -422,14 +422,13 @@
 
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
-    .stat-item {
-        flex: 2 2 45%; /* Shows 2 items per row on tablets */
-    }
+
+@media screen and (max-width: 576px) {
+   
+    
 }
 
-@media (max-width: 576px) {
-    .stat-item {
-        flex: 2 2 100%; /* Shows 1 item per row on mobile */
-    }
+@media screen and (min-width: 992px) {
+
+    
 }
