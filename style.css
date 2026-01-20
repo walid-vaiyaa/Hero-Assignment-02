@@ -52,6 +52,20 @@
 
 /* banner style */
 
+/* Featured vedio section */
+.vedio-section{
+    background-color: #1A0B2E;
+    padding: 120px 200px;
+}
+.vedio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.vedio-card{
+    border-radius: 10px;
+}
 
 /* host sytle */
 .host-container{
@@ -67,13 +81,6 @@
     text-align: center;
 }
 .host-card{
-    /* border: 1px solid #412567;
-    border-radius: 40px;
-    display: flex;
-    justify-content: space-between;
-    padding: 3rem;
-    gap: 2.5rem;
-    background-color: rgba(53, 17, 101, 0.4); */
     display: flex;
     align-items: center;
     background-color: rgba(53, 17, 101, 0.4);;
