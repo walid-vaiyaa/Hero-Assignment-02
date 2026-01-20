@@ -52,27 +52,13 @@
 
 /* banner style */
 .hero-container {
-    position: relative;
-    width: 100%;
-    max-width: 1200px;
-    text-align: center;
-    padding: 20px;
+    /* text-align: center; */
     background-color: #1A0B2E;
 }
 
-/* Mimics the soundwave background */
-.wave-overlay {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    width: 100%;
-    height: 200px;
-    background: url(./assets/hero-bg.png);
-    background-repeat: repeat-x;
-    opacity: ;
-    transform: translateY(-50%);
-    z-index: -1;
-    filter: hue-rotate(280deg);
+.hero-title {
+    padding-top: 70px;
+
 }
 
 .content-wrapper {
@@ -84,55 +70,58 @@
 /* Gradient Circle */
 .logo-circle {
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 280px;
+    height: 280px;
     background: linear-gradient(135deg, #ff00ff, #ffee00);
     border-radius: 120%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 30px;
-    /* border: 2px solid #2A186C; */
+    border: 2px solid #2A186C;
     box-shadow: 0 0 50px rgb(21, 5, 202);
 }
+.logo-circle img{   
+    position: absolute;
+    height: 140px;
+}
 
-/* "NEW" Badge */
+/* new name badge */
 .badge {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 1.5rem;
+    right: 1rem;
     background-color: #00ff88;
     font-size: .75rem;
+    color: #2A186C;
     font-weight: bold;
     padding: 4px 10px;
     border-radius: 20px;
     box-shadow: 0 0 8px #00ff88;
 }
 .badge:hover{
-    /* background: transparent; */
     transform: scale(1.1);
     background-color: #026235ae;
 }
 
 .brand-name {
+    padding-top: 1.25rem;
     font-size: 3.75rem;
     font-weight: bold;
     color: #ffffff;
-    margin-bottom: 10px;
+    margin-bottom: .7rem;
 }
 
 .tagline {
     font-size: 0.95rem;
-    color: #cccccc;
-    margin-bottom: 40px;
-    max-width: 500px;
-    line-height: 1.5;
+    color: #ffffffb9;
+    margin-bottom: 1.25rem;
 }
 
-/* Buttons */
 .button-group {
     display: flex;
-    gap: 15px;
+    gap: 1rem;
+    /* padding-bottom: 3.5rem; */
+    margin-bottom: 3.5rem;
 }
 
 .btn {
@@ -144,8 +133,6 @@
     border-radius: 30px;
     font-weight: 600;
     font-size: 1rem;
-    
-    /* transition: transform 0.2s ease; */
 }
 .btn-spotify {
     background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
