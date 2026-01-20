@@ -80,11 +80,12 @@
 }
 .card-content h3{
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .card-content p{
     font-size: 16px;
     margin: 12px 0;
+    color: #ffffffa5;
 }
 
 .episode-card:hover {
